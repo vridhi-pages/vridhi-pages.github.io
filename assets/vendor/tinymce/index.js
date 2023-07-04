@@ -1,7 +1,7 @@
-// Exports the "codesample" plugin for usage with module loaders
+// Exports the "default" icons for usage with module loaders
 // Usage:
 //   CommonJS:
-//     require('tinymce/plugins/codesample')
+//     require('tinymce/icons/default')
 //   ES2015:
-//     import 'tinymce/plugins/codesample'
-require('./plugin.js');
+//     import 'tinymce/icons/default'
+require('./icons.js');
