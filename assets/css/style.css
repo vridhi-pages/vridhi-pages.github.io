@@ -1219,6 +1219,75 @@ h6 {
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
 }
+.social_profile {margin-top:40px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    margin: 0px 5px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+@media only screen and (max-width:768px) { 
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) { 
+.social_profile ul li a{
+    width:40px;
+    height:40px;
+    line-height:40px;
+}
+}
+  .social_profile ul li a.facebook:hover{
+background-color:#3b5998;
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+  .social_profile ul li a.youtube:hover{
+background-color:#FF0000; 
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+ .social_profile ul li a.instagram:hover{
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+  .social_profile ul li a.telegram:hover{
+background-color:#0088cc;
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+  .social_profile ul li a.twitter:hover{
+background-color:#00aced;
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+  .social_profile ul li a.whatsapp:hover{
+background-color:#4fce5d;
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+
 
 .footer .copyright {
   text-align: center;
