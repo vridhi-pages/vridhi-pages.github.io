@@ -6,6 +6,35 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Vridhi Pages</title>
+   <script>
+        // Remove or hide inspect element and view source options
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+
+            var menu = document.createElement('menu');
+            var inspectItem = document.createElement('menuitem');
+            var viewSourceItem = document.createElement('menuitem');
+
+            inspectItem.textContent = 'Inspect Element';
+            viewSourceItem.textContent = 'View Page Source';
+
+            menu.appendChild(inspectItem);
+            menu.appendChild(viewSourceItem);
+
+            menu.style.display = 'none';
+            document.body.appendChild(menu);
+
+            menu.addEventListener('click', function() {
+                return false;
+            });
+
+            menu.style.position = 'absolute';
+            menu.style.left = e.clientX + 'px';
+            menu.style.top = e.clientY + 'px';
+            menu.style.display = 'block';
+        });
+   </script>
+
   <meta content="" name="description">
   <meta content="" name="keywords">
 
