@@ -1,4 +1,4 @@
 # VridhiPages
 Education website
 Deployed At
-www.vridhi-pages.cf
+www.vridhipages.tech
