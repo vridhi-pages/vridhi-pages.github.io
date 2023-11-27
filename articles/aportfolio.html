@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Vridhi Pages</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="../assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <!-- EnlighterJS CSS !-->
+  <link rel="stylesheet" href="../assets/vendor/dist/enlighterjs.min.css" />
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Mar 09 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+<div><i class="bi bi-list toggle-sidebar-btn"></i></div>
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="../index.html" class="logo d-flex align-items-center">
+       <!-- <img src="assets/img/logo.png" alt=""> -->
+        <span class="d-none d-lg-block">Vridhi Pages</span>
+      </a>
+    </div><!-- End Logo -->
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+      <!-- Dashboard Nav -->
+      <li class="nav-item">
+        <a class="nav-link " href="../index.html">
+          <i class="bi bi-grid"></i>
+          <span>Home</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+      	
+      <!-- Articles Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../article.html">
+          <i class="bi bi-newspaper"></i>
+          <span>Articles</span>
+        </a>
+      </li>
+      <!-- End Articles Nav -->
+
+    <!-- Books Nav -->
+     <!-- <li class="nav-item"> -->
+       <!-- <a class="nav-link collapsed" data-bs-target="#books-nav" data-bs-toggle="collapse" href="#"> -->
+         <!-- <i class="bi bi-book"></i><span>Books</span><i class="bi bi-chevron-down ms-auto"></i> -->
+       <!-- </a> -->
+        <!-- <ul id="books-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav"> -->
+          <!-- <li> -->
+            <!-- <a href="book.html"> -->
+            <!-- <i class="bi bi-circle"></i><span>Book</span> -->
+            <!-- </a> -->
+         <!-- </li> -->
+        <!-- <li> -->
+            <!-- <a href="ebook.html"> -->
+             <!-- <i class="bi bi-circle"></i><span>Ebook</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+          <!-- <li> -->
+            <!-- <a href="guide.html"> -->
+              <!-- <i class="bi bi-circle"></i><span>Guide</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+        <!-- </ul> -->
+      <!-- </li> -->
+      <!-- End Books Nav --> 
+
+      <!-- Webinar Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../webinar.html">
+          <i class="bi bi-tv"></i>
+          <span>Webinar</span>
+        </a>
+      </li>
+      <!-- End Webinar Nav -->
+
+      <!-- Subject Nav -->
+        <!-- <li class="nav-item"> -->
+        <!-- <a class="nav-link collapsed" data-bs-target="#subjects-nav" data-bs-toggle="collapse" href="#"> -->
+          <!-- <i class="bi bi-journal-code"></i><span>Subject</span><i class="bi bi-chevron-down ms-auto"></i> -->
+        <!-- </a> -->
+        <!-- <ul id="subjects-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav"> -->
+          <!-- <li> -->
+             <!-- <a href="subhtml.html"> -->
+              <!-- <i class="bi bi-circle"></i><span>HTML</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+          <!-- <li> -->
+            <!-- <a href="subcss.html"> -->
+              <!-- <i class="bi bi-circle"></i><span>CSS</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+          <!-- <li> -->
+            <!-- <a href="subjs.html"> -->
+              <!-- <i class="bi bi-circle"></i><span>JAVASCRIPT</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+          <!-- <li> -->
+            <!-- <a href="subsql.html"> -->
+              <!-- <i class="bi bi-circle"></i><span>SQL</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+          <!-- <li> -->
+            <!-- <a href="subphp.html"> -->
+              <!-- <i class="bi bi-circle"></i><span>PHP</span> -->
+            <!-- </a> -->
+          <!-- </li> -->
+        <!-- </ul> -->
+      <!-- </li> -->
+      <!-- End Subject Nav --> 
+    
+      <!-- Courses Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#courses-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journals"></i><span>Courses</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="courses-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="../courses/coursefrontend.html">
+              <i class="bi bi-circle"></i><span>Front End Developer</span>
+            </a>
+          </li>
+          <li>
+            <a href="../courses/coursebackend.html">
+              <i class="bi bi-circle"></i><span>Back End Developer</span>
+            </a>
+          </li>
+          <li>
+            <a href="../courses/coursefullstack.html">
+              <i class="bi bi-circle"></i><span>Full Stack Developer</span>
+            </a>
+          </li>
+          <li>
+            <a href="../courses/coursecybersecurity.html">
+              <i class="bi bi-circle"></i><span>Cyber Security</span>
+            </a>
+          </li>
+          <li>
+            <a href="../courses/courseai.html">
+              <i class="bi bi-circle"></i><span>Artificial Intelligence</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Courses Nav -->
+      
+       <!-- Project Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../project.html">
+          <i class="bi bi-code-square"></i>
+          <span>Project</span>
+        </a>
+      </li>
+      <!-- End Project Nav -->
+      	
+      <!-- Magazines Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../magazines.html">
+          <i class="bi bi-journal-richtext"></i>
+          <span>Magazines</span>
+        </a>
+      </li>
+      <!-- End Magazines Nav -->
+      
+      <!-- Competition Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#competition-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-trophy"></i><span>Competition</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="competition-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="../compquiz.html">
+              <i class="bi bi-circle"></i><span>Quiz</span>
+            </a>
+          </li>
+          <li>
+            <a href="../comppuzzle.html">
+              <i class="bi bi-circle"></i><span>Puzzle</span>
+            </a>
+          </li>
+          <li>
+            <a href="../compdesign.html">
+              <i class="bi bi-circle"></i><span>Design</span>
+            </a>
+          </li>
+          <li>
+            <a href="../compinnovation.html">
+              <i class="bi bi-circle"></i><span>Innovation</span>
+            </a>
+          </li>
+          <li>
+            <a href="../compbugbounty.html">
+              <i class="bi bi-circle"></i><span>Bug Bounty</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Competition Nav -->
+
+      <!-- Student Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#student-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-person-square"></i><span>Student</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="student-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="../stuscholarship.html">
+              <i class="bi bi-circle"></i><span>Scholarship</span>
+            </a>
+          </li>
+          <li>
+            <a href="../stuinternship.html">
+              <i class="bi bi-circle"></i><span>Internship</span>
+            </a>
+          </li>
+          <li>
+            <a href="../stumentorship.html">
+              <i class="bi bi-circle"></i><span>Mentorship</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Student Nav -->
+      	
+      <!-- Community Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../community.html">
+          <i class="bi bi-people"></i>
+          <span>Community</span>
+        </a>
+      </li>
+      <!-- End Community Nav -->
+      <!-- Legal Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#legal-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-shield-lock"></i></i><span>Legal</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="legal-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="../legal/legalcopyrights.html">
+              <i class="bi bi-circle"></i><span>Copyrights</span>
+            </a>
+          </li>
+          <li>
+            <a href="../legal/legalrefundpolicy.html">
+              <i class="bi bi-circle"></i><span>Refund Policy</span>
+            </a>
+          </li>
+             <li>
+            <a href="../legal/legalprivacypolicy.html">
+              <i class="bi bi-circle"></i><span>Privacy Policy</span>
+            </a>
+          </li>
+          <li>
+            <a href="../legal/legalcancellationpolicy.html">
+              <i class="bi bi-circle"></i><span>Cancellation Policy</span>
+            </a>
+          </li>
+          <li>
+            <a href="../legal/legaltermsandcondition.html">
+              <i class="bi bi-circle"></i><span>Terms & Conditions</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Legal Nav -->
+      
+      <!-- Company Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#company-nav" data-bs-toggle="collapse" href="#">
+        <svg height="20" width="200">
+        <circle cx="9" cy="10" r="5.5%"  stroke="grey" fill="none" />
+        <text style="font-style: bold; font-size: 9px;" x="3.5" y="13.5" fill="grey">VP</text>
+        <text x="24" y="15" fill="darkblue">Vridhi Pages</text>
+        </svg><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="company-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         <li>
+            <a href="../vridhi/vpjobs.html">
+              <i class="bi bi-circle"></i><span>Job</span>
+            </a>
+          </li>
+          <li>
+            <a href="../vridhi/vpteam.html">
+              <i class="bi bi-circle"></i><span>Team</span>
+            </a>
+          </li>
+          <li>
+            <a href="../vridhi/vpabout.html">
+              <i class="bi bi-circle"></i><span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="../vridhi/vpcareer.html">
+              <i class="bi bi-circle"></i><span>Career</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End Company Nav -->
+
+      <li class="nav-heading">Pages</li>
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="../users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li> -->
+    <!-- End Profile Page Nav -->
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="../pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li> -->
+    <!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../pages-register.html">
+          <i class="bi bi-card-list"></i>
+          <span>Register</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../pages-login.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Login</span>
+        </a>
+      </li><!-- End Login Page Nav -->
+      
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <!-- <div class="pagetitle">
+      <h1>Articles</h1>
+      <nav style="--bs-breadcrumb-divider: '>';">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active">Articles</li>
+        </ol>
+      </nav>
+    </div> -->
+   <!-- End Page Title -->
+<br>
+<section class="section">
+<div class="row align-items-top">
+    
+<!-- Card 1-->   
+<div class="col-lg-8">
+<!-- News Card -->
+<div class="card">
+<div class="card-header">OCT 18, 2023 | 8:10 PM</div>
+<br>
+<h3><b>&nbsp;Create a Portfolio with HTML and CSS</b></h3>
+<h6>&nbsp; &nbsp;Written By: <b><a style="color:darkblue">Vishal Maurya</a></b></h6>
+<img src="../../assets/img/articles/aportfolio.png" class="card-img-top" alt="portfolio" width="100%" height="350">
+<div class="card-body">
+<br><br>
+<p>In this tutorial, I have created Simple Portfolio using HTML and CSS. I have provided explanation with Step by Step to create a Portfolio.
+</p>
+<h5><b>Steps For Creating Portfolio with HTML and CSS</b></h5>
+<ul>
+<li>Create a folder with name (ex. Portfolio ) and inside this folder, create css folder.</li>
+<li>Create a <span class="badge bg-secondary">index.html</span> or <span class="badge bg-secondary">index.htm</span> file.</li>
+<li>Create a <span class="badge bg-secondary">styles.css</span> file in css folder.</li>
+</ul>
+ 
+<!-- <div class="content-page">
+<div class="container-fluid">
+<div class="row">
+ 
+<div class="col-lg-6 col-md-6">
+<div class="card card-block card-stretch card-height">
+<div class="card-header">HTML CODE</div>
+<br>            
+<div class="card-body"> 
+<pre class="iq-helper-classes m-0">
+.mt-0 { margin: 0 !important; }
+.mt-1 { margin: .25rem !important; }
+.mt-2 { margin: .5rem !important; }
+.mt-3 { margin: 1rem !important; }
+.mt-4 { margin: 1.5rem !important; }
+.mt-5 { margin: 3rem !important; }
+</pre>
+</div>              
+</div>
+</div>
+            
+<div class="col-lg-6 col-md-6">
+<div class="card card-block card-stretch card-height">
+<div class="card-header">HTML CODE</div>
+<br>            
+<div class="card-body"> 
+<pre class="iq-helper-classes m-0">
+.mt-0 { margin: 0 !important; }
+.mt-1 { margin: .25rem !important; }
+.mt-2 { margin: .5rem !important; }
+.mt-3 { margin: 1rem !important; }
+.mt-4 { margin: 1.5rem !important; }
+.mt-5 { margin: 3rem !important; }
+</pre>
+</div>              
+</div>
+</div>
+            
+</div>              
+</div>
+</div> -->                    
+<p>Lets's start, add the following HTML codes to your <span class="badge bg-secondary">index.html</span> file. If you are unable to view full HTML code, then hit copy on elighter or you can download full code from below download button.</p>
+           
+<!-- Code to highlight -->
+<pre id="codeblock1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+	
+    <!-- Header Section -->
+    <header>
+        <h2>Vishal Maurya</h2>
+        <p>Web Developer</p>
+    </header>
+    <!-- End Header Section -->
+    	
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="vicco.jpg" alt="Vishal Maurya">
+        <p>I am Vishal Maurya, a dedicated web developer. With a passion for coding and an eye for design, I specialize in crafting user-friendly and responsive websites. My skill is front-end development, and I stay up-to-date with the latest web technologies. I'm committed to creating innovative online experiences that leave a lasting impression.</p>
+    </section>
+   <!-- End About Section -->
+   	
+   <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>W3 CSS</li>
+        </ul>
+    </section>
+   <!-- End Skills Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="project1-image.jpg" alt="Project 1">
+            <h3>Portfolio</h3>
+            <p>Make Supersimple Portfolio</p>
+        </div>
+        <!-- End Project 1 -->
+        	
+        <!-- Project 2 -->
+        <div class="project">
+            <img src="project2-image.jpg" alt="Project 2">
+            <h3>Landing Page</h3>
+            <p>Simple Landing Page</p>
+        </div>
+        <!-- End Project 2 -->
+       	
+        <!-- Project 3 -->
+        <div class="project">
+            <img src="project3-image.jpg" alt="Project 3">
+            <h3>Calculator</h3>
+            <p>Perform Your Calculation Through This Calculator</p>
+        </div>
+        <!-- End Project 3 -->
+        	
+    </section>
+   <!-- End Projects Section -->
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="vicco.pdf" download>Download Resume (PDF)</a>
+    </section>
+    <!-- End Resume Section -->
+    	
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: abc@mail.com</p>
+        <p>Phone: 1234567890</p>
+    </section>
+    <!-- End Contact Section -->
+    	
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Vishal Maurya | <a href="https://www.linkedin.com/in/vsmaurya">LinkedIn</a></p>
+    </footer>
+    <!-- End Footer Section -->
+    	
+</body>
+</html>
+</pre>
+<!-- End Code to highlight -->
+    
+<p>Now, Add the following CSS codes to your <span class="badge bg-secondary">styles.css</span> file.</p>
+       
+<!-- Code to highlight -->
+<pre id="codeblock2">
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* About Section Styles */
+#about {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 5%; /* Makes the image round in corner, Put 50 If You Want Rounded*/
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Resume Section Styles */
+#resume {
+    padding: 20px;
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #projects .project 
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    #projects .project {
+        flex-basis: 100%;
+    }
+}
+</pre>
+<!--End Code to highlight -->
+<p>Note :) Images put in Root file (ex. Portfolio).</p>
+<p>Download Full Code: <a href="https://teraboxapp.com/s/1V-Dygx5UBkogD49HF5wAHw" class="btn btn-primary">Download</a></p>
+</div>
+</div>
+<!-- End News Card -->
+    
+<!-- Author Card -->
+<div class="card dashboard">
+<div class="card-body pb-0">
+<h5 class="card-title card-header">About The Author</h5>
+<div class="news">
+<div class="post-item clearfix">
+<br>
+<img src="../../assets/img/team/team-3.jpg" alt="">
+<h4 style="font-family: Helvetica;"><b><!--<a href="#"> -->Vishal Maurya<!--</a>--></b></h4>
+<b><p style="color: grey;">Hey Buddy...! I'm Vishal Maurya, a Front End Web developer on a mission to transform ideas into captivating digital experiences. From crafting sleek designs with HTML and CSS to adding interactivity with JavaScript, I thrive on the thrill of turning concepts into reality. I have done lot's of project , where i have gained a impressive experience and transfrom their projects into reality. Ping me on <b><a href="https://in.linkedin.com/in/vsmaurya">Linkedin</a></b></p></b>
+</div>
+</div><!-- End sidebar recent posts-->
+<br>
+</div>
+</div>
+<!-- End Author Card -->
+    
+</div>
+<!-- End Card 1-->
+    
+
+<!-- Card 2 -->     
+<div class="col-lg-4">
+<!-- News Highlight Card -->
+<div class="card dashboard">
+<div class="card-body pb-0">
+<h5 class="card-title card-header">You May Also Like This</h5>
+<br>
+<div class="news">
+<div class="post-item clearfix">
+<img src="../../assets/img/articles/acalculator.png" alt="calculator">
+<h4><a href="#">Create a Calculator using HTML , CSS AND JAVASCRIPT</a></h4>
+<p>Explore in this tutorial to create a visually appealing calculator for web development projects</p>
+</div>
+</div>
+<br><!-- End sidebar recent posts-->
+<div class="news">
+<div class="post-item clearfix">
+<img src="../../assets/img/articles/aportfolio.png" alt="portfolio">
+<h4><a href="#">Create a Portfolio with HTML and CSS</a></h4>
+<p>Craft a Portfolio with HTML and CSS to showcase your skills and projects effectively</p>
+</div>
+</div>
+<br><!-- End sidebar recent posts-->
+<div class="news">
+<div class="post-item clearfix">
+<img src="../../assets/img/articles/acontact.png" alt="contact">
+<h4><a href="#">Create a Contact Form with HTML , CSS , JAVASCRIPT AND PHP</a></h4>
+<p>Learn to create a responsive contact form by using HTML, CSS, JAVASCRIPT and PHP language</p>
+</div>
+</div>
+<br><!-- End sidebar recent posts-->
+<div class="news">
+<div class="post-item clearfix">
+<img src="../../assets/img/articles/atestimonials.png" alt="testimonials">
+<h4><a href="#">Create a Testimonial with HTML , CSS and JAVASCRIPT</a></h4>
+<p>Elevate your web skills with this hands-on tutorial, by designing a responsive testimonials</p>
+</div>
+</div>
+<br><!-- End sidebar recent posts-->
+<div class="news">
+<div class="post-item clearfix">
+<img src="../../assets/img/articles/aiframe.png" alt="iframe">
+<h4><a href="#">How to Embed a Youtube Video in iframe</a></h4>
+<p>Learn to integrate Youtube video seamlessly using an iframe with this quick tutorial</p>
+</div>
+</div>
+<br><!-- End sidebar recent posts-->
+<div class="news">
+<div class="post-item clearfix">
+<img src="../../assets/img/articles/acard.png" alt="card">
+<h4><a href="#">Create a Card with HTML and CSS</a></h4>
+<p>Learn to create a simple and elegant card by using HTML and CSS in this tutorial</p>
+</div>
+</div>
+<br><!-- End sidebar recent posts-->
+
+</div>
+</div>
+<!-- End News Highlight Card -->
+          
+<!-- Card with an image on top -->
+<div class="card">
+<div class="card-header">JUL 17, 2023</div>
+<img src="../../assets/img/articles/awebdeveloper.png" class="card-img-top" alt="webdeveloper">
+<div class="card-body">
+<h5 class="card-title"><a href="../articles/a1.html">Why Consistent Coding is Important for Web Developer</a></h5>
+<p class="card-text">Consistent coding practices play a important role in the success and efficiency of Web Developer</p>
+<!-- <h5 class="card-title">Written By:<a href="np.html"> Shelly Jha</a></h5> -->
+<h5 class="card-title">Written By: Shelly Jha</h5>
+</div>
+</div>
+<!-- End Card with an image on top -->
+          	
+</div>
+</section>
+</main>
+<!-- End #main --> 
+     
+ 
+ <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <!-- <div class="copyright"> -->
+     <!--  &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved -->
+   <!-- </div> -->
+    <div class="copyright">
+     Copyright &copy; 2023 <strong><span>Vridhi Pages</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="../assets/vendor/echarts/echarts.min.js"></script>
+  <script src="../assets/vendor/quill/quill.min.js"></script>
+  <script src="../assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="../assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <!-- EnlighterJS -->
+  <script type="text/javascript" src="../assets/vendor/dist/enlighterjs.min.js"></script>
+  <!-- Init Code -->
+  <script type="text/javascript">
+        // highlight a single element directly
+        // set all parameters via options
+        EnlighterJS.enlight(document.getElementById('codeblock1'), {
+            language: 'less',
+            theme: 'bootstrap4',
+            lineoffset: 1,
+        // highlight: '423,427,431' //
+        });
+      EnlighterJS.enlight(document.getElementById('codeblock2'), {
+            language: 'less',
+            theme: 'bootstrap4',
+            lineoffset: 1,
+        // highlight: '423,427,431' //
+        });
+  </script>
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body> 
+
+</html>
