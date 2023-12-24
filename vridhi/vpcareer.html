@@ -28,7 +28,188 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
+<style>
+	/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/      
+#footer {
+  background: #fff;
+  padding: 0 0 30px 0;
+  color: #444444;
+  font-size: 14px;
+  background: #f1f6fe;
+}
 
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #f1f6fe;
+  text-align: center;
+  font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#footer .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #106eea;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+  background: #0d58ba;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #fff;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 24px;
+  margin: 0 0 15px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact h3 span {
+  color: #106eea;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #106eea;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #106eea;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #106eea;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #3b8af2;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  text-align: center;
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  text-align: center;
+  font-size: 13px;
+  color: #444444;
+}
+
+@media (max-width: 768px) {
+
+  #footer .copyright,
+  #footer .credits {
+    float: none;
+    text-align: center;
+    padding: 2px 0;
+  }
+}
+</style>
   <!-- =======================================================
   * Template Name: NiceAdmin
   * Updated: Mar 09 2023 with Bootstrap v5.2.3
@@ -46,7 +227,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="../index.html" class="logo d-flex align-items-center">
        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <span class="d-none d-lg-block align-items-left">Vridhi Pages</span>
+        <span>Vridhi Pages</span>
       </a>
     </div><!-- End Logo -->
   </header><!-- End Header -->
@@ -142,38 +323,12 @@
       <!-- </li> -->
       <!-- End Subject Nav -->  
       
-      <!-- Courses Nav -->
+     <!-- Courses Nav -->
       <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#courses-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-journals"></i><span>Courses</span><i class="bi bi-chevron-down ms-auto"></i>
+        <a class="nav-link collapsed" href="../courses.html">
+          <i class="bi bi-journal-code"></i>
+          <span>Courses</span>
         </a>
-        <ul id="courses-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="../courses/coursefrontend.html">
-              <i class="bi bi-circle"></i><span>Front End Developer</span>
-            </a>
-          </li>
-          <li>
-            <a href="../courses/coursebackend.html">
-              <i class="bi bi-circle"></i><span>Back End Developer</span>
-            </a>
-          </li>
-          <li>
-            <a href="../courses/coursefullstack.html">
-              <i class="bi bi-circle"></i><span>Full Stack Developer</span>
-            </a>
-          </li>
-          <li>
-            <a href="../courses/coursecybersecurity.html">
-              <i class="bi bi-circle"></i><span>Cyber Security</span>
-            </a>
-          </li>
-          <li>
-            <a href="../courses/courseai.html">
-              <i class="bi bi-circle"></i><span>Artificial Intelligence</span>
-            </a>
-          </li>
-        </ul>
       </li>
       <!-- End Courses Nav -->
       
@@ -264,7 +419,7 @@
       </li>
       <!-- End Community Nav -->
 
-     <!-- Legal Nav -->
+      <!-- Legal Nav -->
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#legal-nav" data-bs-toggle="collapse" href="#">
           <i class="bi bi-shield-lock"></i></i><span>Legal</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -299,7 +454,7 @@
       </li>
       <!-- End Legal Nav -->
 
-  <!-- Company Nav -->
+       <!-- Company Nav -->
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#company-nav" data-bs-toggle="collapse" href="#">
         <svg height="20" width="200">
@@ -333,8 +488,6 @@
       </li>
       <!-- End Company Nav -->
 
-      <li class="nav-heading">Pages</li>
-
       <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="../users-profile.html">
           <i class="bi bi-person"></i>
@@ -358,19 +511,23 @@
         </a>
       </li><!-- End Contact Page Nav -->
 
-      <li class="nav-item">
+     <li class="nav-heading">Made with  <i class="bi bi-suit-heart-fill"></i> By Vridhi Pages</li>
+	    
+      <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="../pages-register.html">
           <i class="bi bi-card-list"></i>
           <span>Register</span>
         </a>
-      </li><!-- End Register Page Nav -->
+      </li> -->
+     <!-- End Register Page Nav -->
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="../pages-login.html">
           <i class="bi bi-box-arrow-in-right"></i>
           <span>Login</span>
         </a>
-      </li><!-- End Login Page Nav -->
+      </li> -->
+      <!-- End Login Page Nav -->
       
     </ul>
 
@@ -422,8 +579,62 @@
     <!-- <div class="copyright"> -->
      <!--  &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved -->
    <!-- </div> -->
-    <div class="copyright">
-     Copyright &copy; 2023 <strong><span>Vridhi Pages</span></strong>. All Rights Reserved
+<div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Vridhi<span>Pages</span></h3>
+            <p>
+              Near Goregaon Metro<br>
+              Mumbai, 400063<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 0000000000<br>
+              <strong>Email:</strong> contact@vridhipages.tech<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="vridhi/vpjobs.html">Jobs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="vridhi/vpteam.html">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="legal/legalprivacypolicy.html">Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="legal/legaltermsandcondition.html">Terms & Condition</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SEO</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Hosting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+            </ul>
+          </div>
+            
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Join Now To Get Latest Update About Jobs & Articles And Many More</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/people/Vridhi-Pages/61550222042992/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/vridhipages/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://twitter.com/VridhiPages" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/vridhipages" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://t.me/vridhipages" class="telegram"><i class="bx bxl-telegram"></i></a>
+              <a href="https://wa.me/qr/BHKGHDBORE3VN1" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+          </div>
+        
+         <div class="copyright">
+         Copyright &copy; 2023 <strong><span>Vridhi Pages</span></strong>. All Rights Reserved
+         </div>
+            
+        </div>
+      </div>
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
